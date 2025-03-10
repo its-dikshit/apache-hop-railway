@@ -1,0 +1,116 @@
+{
+    "source_login_url": {
+        "login_url": "https://reports.bizom.in/users/login"
+    },
+    "source_admin_credentials": {
+        "username": "Bizzplus_Admin",
+        "password": "Bizz@12"
+    },
+    "source_distributor_credentials": {
+        "username": "Int@distributor",
+        "password": "7788445599"
+    },
+    "target_login_url": {
+        "login_url": "https://stagingbizzplus.bizomstaging.in/users/login"
+    },
+    "target_credentials": {
+        "username": "bizzadmin",
+        "password": "mobisy"
+    },
+    "download_dir": {
+        "source_dir": "../../Brand A/Source",
+        "target_dir": "../../Brand A/Target",
+        "mdms_dir": "../../Brand A/Mdms"
+    },
+    "source_downloads": {
+        "source_areas": {
+            "report_url": "https://reports.bizom.in/reports/view/3235",
+            "file_prefix": "Source_Areas"
+        },
+        "source_skunits": {
+            "report_url": "https://reports.bizom.in/reports/view/3087",
+            "file_prefix": "Source_Skunits"
+        },
+        "source_outlets": {
+            "report_url": "https://reports.bizom.in/reports/view/6777",
+            "file_prefix": "Source_Outlets"
+        },
+        "source_orders": {
+            "report_url": "https://reports.bizom.in/reports/view/6775",
+            "file_prefix": "Source_Orders",
+            "zone_selection_value": "7"
+        }
+    },
+    "target_downloads": {
+        "target_areas": {
+            "dashboard_url": "https://stagingbizzplus.bizomstaging.in/companies/viewreport/10264",
+            "report_url": "https://stagingreports.bizomstaging.in/reports/view/12042",
+            "file_prefix": "Target_Areas"
+        },
+        "target_skunits": {
+            "dashboard_url": "https://stagingbizzplus.bizomstaging.in/companies/viewreport/10264",
+            "report_url": "https://stagingreports.bizomstaging.in/reports/view/12019",
+            "file_prefix": "Target_Skunits"
+        },
+        "target_outlets": {
+            "dashboard_url": "https://stagingbizzplus.bizomstaging.in/companies/viewreport/10264",
+            "report_url": "https://stagingreports.bizomstaging.in/reports/view/12045",
+            "file_prefix": "Target_Outlets",
+            "file_extension": ".zip"
+        },
+        "target_categories": {
+            "categories_url": "https://stagingbizzplus.bizomstaging.in/categories",
+            "download_button_id": "downloadCategories",
+            "file_prefix": "Target_Categories"
+        },
+        "target_subcategories": {
+            "categories_url": "https://stagingbizzplus.bizomstaging.in/subcategories",
+            "download_button_id": "downloadSubcategories",
+            "file_prefix": "Target_Subcategories"
+        },
+        "mdms_downloads": [
+            {"url": "https://stagingbizzplus.bizomstaging.in/mdms/upload/1", "file_to_delete": "create_areas_mdm.xlsx", "target_file_name": "create_areas_mdm.xlsx"},
+            {"url": "https://stagingbizzplus.bizomstaging.in/mdms/upload/9", "file_to_delete": "create_categories_mdm.xlsx", "target_file_name": "create_categories_mdm.xlsx"},
+            {"url": "https://stagingbizzplus.bizomstaging.in/mdms/upload/16", "file_to_delete": "create_subcategories_mdm.xlsx", "target_file_name": "create_subcategories_mdm.xlsx"},
+            {"url": "https://stagingbizzplus.bizomstaging.in/mdms/upload/21", "file_to_delete": "create_skunits_mdm.xlsx", "target_file_name": "create_skunits_mdm.xlsx"},
+            {"url": "https://stagingbizzplus.bizomstaging.in/mdms/upload/153", "file_to_delete": "update_skunits_mdm.xlsx", "target_file_name": "update_skunits_mdm.xlsx"},
+            {"url": "https://stagingbizzplus.bizomstaging.in/mdms/upload/29", "file_to_delete": "create_outlets_mdm.xlsx", "target_file_name": "create_outlets_mdm.xlsx"},
+            {"url": "https://stagingbizzplus.bizomstaging.in/mdms/upload/74", "file_to_delete": "update_outlets_mdm.xlsx", "target_file_name": "update_outlets_mdm.xlsx"},
+            {"url": "https://stagingbizzplus.bizomstaging.in/mdms/upload/75", "file_to_delete": "upload_orders_mdm.xlsx", "target_file_name": "upload_orders_mdm.xlsx"}
+        ]
+    },
+    "target_mdm_uploads": {
+        "create_areas_mdm": {
+            "upload_url": "https://stagingbizzplus.bizomstaging.in/mdms/upload/1",
+            "file_name": "create_areas_mdm.xlsx"
+        },
+        "create_categories_mdm": {
+            "upload_url": "https://stagingbizzplus.bizomstaging.in/mdms/upload/9",
+            "file_name": "create_categories_mdm.xlsx"
+        },
+        "create_subcategories_mdm": {
+            "upload_url": "https://stagingbizzplus.bizomstaging.in/mdms/upload/16",
+            "file_name": "create_subcategories_mdm.xlsx"
+        },
+        "create_skunits_mdm": {
+            "upload_url": "https://stagingbizzplus.bizomstaging.in/mdms/upload/21",
+            "file_name": "create_skunits_mdm.xlsx"
+        },
+        "update_skunits_mdm": {
+            "upload_url": "https://stagingbizzplus.bizomstaging.in/mdms/upload/153",
+            "file_name": "update_skunits_mdm.xlsx"
+        },
+        "create_outlets_mdm": {
+            "upload_url": "https://stagingbizzplus.bizomstaging.in/mdms/upload/29",
+            "file_name": "create_outlets_mdm.xlsx"
+        },
+        "update_outlets_mdm": {
+            "upload_url": "https://stagingbizzplus.bizomstaging.in/mdms/upload/74",
+            "file_name": "update_outlets_mdm.xlsx"
+        },
+        "upload_orders_mdm": {
+            "upload_url": "https://stagingbizzplus.bizomstaging.in/mdms/upload/75",
+            "file_name": "upload_orders_mdm.xlsx"
+        }
+    }
+}

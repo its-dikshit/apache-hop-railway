@@ -1,0 +1,28 @@
+{
+  "metadataBaseFolder" : "${PROJECT_HOME}/metadata",
+  "unitTestsBasePath" : "${PROJECT_HOME}",
+  "dataSetsCsvFolder" : "${PROJECT_HOME}/datasets",
+  "enforcingExecutionInHome" : true,
+  "parentProjectName" : "default",
+  "config" : {
+    "variables" : [ {
+      "name" : "root_folder",
+      "value" : "D:\\Integration V_1.1\\Integration Files V_1.1"
+    }, {
+      "name" : "source_folder",
+      "value" : "Source"
+    }, {
+      "name" : "target_folder",
+      "value" : "Target"
+    }, {
+      "name" : "mappings_folder",
+      "value" : "Mappings"
+    }, {
+      "name" : "mdm_folder",
+      "value" : "Mdms"
+    }, {
+      "name" : "source_name",
+      "value" : "Brand A"
+    } ]
+  }
+}

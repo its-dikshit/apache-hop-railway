@@ -1,0 +1,9 @@
+{
+    "build": {
+      "dockerfilePath": "Dockerfile"
+    },
+    "deploy": {
+      "startCommand": "sh /opt/hop/hop-server.sh"
+    }
+  }
+  

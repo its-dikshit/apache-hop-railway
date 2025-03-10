@@ -1,0 +1,99 @@
+{
+  "enclosure": "",
+  "name": "create_categories_mdm",
+  "description": "",
+  "fieldDefinitions": [
+    {
+      "decimalSymbol": "",
+      "ifNullValue": "",
+      "hopType": "String",
+      "precision": -1,
+      "length": -1,
+      "name": "*name",
+      "currencySymbol": "",
+      "comment": "",
+      "formatMask": "",
+      "groupingSymbol": "",
+      "trimType": 0
+    },
+    {
+      "decimalSymbol": "",
+      "ifNullValue": "",
+      "hopType": "Integer",
+      "precision": -1,
+      "length": -1,
+      "name": "category_id",
+      "currencySymbol": "",
+      "comment": "",
+      "formatMask": "",
+      "groupingSymbol": "",
+      "trimType": 0
+    },
+    {
+      "decimalSymbol": "",
+      "ifNullValue": "",
+      "hopType": "String",
+      "precision": -1,
+      "length": -1,
+      "name": "isvisible_retailer",
+      "currencySymbol": "",
+      "comment": "",
+      "formatMask": "",
+      "groupingSymbol": "",
+      "trimType": 0
+    },
+    {
+      "decimalSymbol": "",
+      "ifNullValue": "",
+      "hopType": "String",
+      "precision": -1,
+      "length": -1,
+      "name": "disable_purchase_limit",
+      "currencySymbol": "",
+      "comment": "",
+      "formatMask": "",
+      "groupingSymbol": "",
+      "trimType": 0
+    },
+    {
+      "decimalSymbol": "",
+      "ifNullValue": "",
+      "hopType": "String",
+      "precision": -1,
+      "length": -1,
+      "name": "erp_id",
+      "currencySymbol": "",
+      "comment": "",
+      "formatMask": "",
+      "groupingSymbol": "",
+      "trimType": 0
+    },
+    {
+      "decimalSymbol": "",
+      "ifNullValue": "",
+      "hopType": "String",
+      "precision": -1,
+      "length": -1,
+      "name": "imageurl",
+      "currencySymbol": "",
+      "comment": "",
+      "formatMask": "",
+      "groupingSymbol": "",
+      "trimType": 0
+    },
+    {
+      "decimalSymbol": "",
+      "ifNullValue": "",
+      "hopType": "String",
+      "precision": -1,
+      "length": -1,
+      "name": "is_image_mandatory",
+      "currencySymbol": "",
+      "comment": "",
+      "formatMask": "",
+      "groupingSymbol": "",
+      "trimType": 0
+    }
+  ],
+  "separator": ""
+}
